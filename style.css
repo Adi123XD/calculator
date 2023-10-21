@@ -1,0 +1,106 @@
+
+/* CSS HEX */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(3, 3, 3);
+}
+button{
+    padding: 20px;
+    color: white;
+    background-color: var(--onyx);
+    border: none;
+    margin-inline : 15px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    width: 70px;
+    height: 70px;
+    
+}
+:root{
+    --dim-gray: #606060ff;
+    --light-red: #FF646Cff;
+    --jet: #292929ff;
+    --bright-pink-crayola: #FD646Fff;
+    --onyx: #404040ff;
+    }
+/* utility classes */
+.dim-gray{
+    background-color: var(--dim-gray);
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.circle{
+    border-radius: 50%;
+    box-shadow: 0px 4px 5px #292929ff;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:#ccc;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+
+}
+.box{
+
+}
+.calculator{
+    width: 30vw;
+    height: 80vh;
+    background-color: var(--jet);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.output-field{
+    background-color: var(--jet);
+    width: 98%;
+    height: 18.5%;
+    border-radius: 20px;
+}
+.input-field{
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    border: none;
+    border-radius: 20px;
+    color: var(--bright-pink-crayola);
+    font-size: 2.5rem;
+
+}
+/* .input-field:active{
+    border: black;
+} */
+
+.calculator-buttons{
+    margin-inline: 10px;
+    width: 98%;
+    border-radius: 20px;
+    height: 78.5%;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+    background-color: var(--onyx);
+}
+.equals-btn{
+    background-color: var(--bright-pink-crayola);
+    width: 154px;
+    border-radius: 60px;
+}
+.pink{
+    color: var(--light-red);
+}
+.hila{
+    transform: translateX(-10px);
+}
